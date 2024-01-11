@@ -1,0 +1,11 @@
+package equals.str;
+
+public class User {
+
+	public String id;
+	public String pw;
+	
+	public User(String pw) { // User를 생성하고 싶으면 pw는 무조건 넘겨줘야 한다는 의미.
+		this.pw = pw;
+	}
+}

@@ -1,0 +1,15 @@
+package this_;
+
+public class HumanMain {
+
+	public static void main(String[] args) {
+		
+		Human lee = new Human("이정원", 23);
+		lee.showInfo();
+		Human kim = new Human("김정원");
+		kim.showInfo();
+		Human park = new Human();
+
+	}
+
+}

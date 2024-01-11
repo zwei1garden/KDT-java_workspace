@@ -1,0 +1,12 @@
+package overload;
+
+public class HumanMain {
+
+	public static void main(String[] args) {
+		
+		Human h1 = new Human(); // void생성자
+		Human h2 = new Human("이정원", 23); // 매개변수 두 개인 생성자
+
+	}
+
+}

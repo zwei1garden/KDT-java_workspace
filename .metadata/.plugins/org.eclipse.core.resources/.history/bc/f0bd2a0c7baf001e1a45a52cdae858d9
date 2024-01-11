@@ -1,0 +1,22 @@
+package hetero;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		// 기본형 자료형으로 만든 배열 예시
+		// 다른 자료형을 넣을 수 없음. 
+		
+		// int[] iArr = {1,2,3,4,5, "이정원"}; // 해당 배열에 "이정원"이라는 원소를 넣으면 안 들어감. 
+		
+		// A자료형의 힙 주소를 배열로 저장 가능한 배열 생성
+		A[] aArr = new A[2];
+		
+		A a1 = new A();
+		A a2 = new A();
+		
+		aArr[0] = a1;
+		aArr[1] = a2;
+		
+	}
+
+}

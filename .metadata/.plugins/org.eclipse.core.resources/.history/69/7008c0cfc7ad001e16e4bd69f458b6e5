@@ -1,0 +1,14 @@
+package super_;
+
+public class SupersonicAirplane extends Airplane{
+
+	// 상속받는 멤버변수 없음.
+	
+	public SupersonicAirplane(String planeCode) {
+		//생성자는 상속이 되지 않음. 그렇기에 자식쪽 생성자에서 부모 생성자를 먼저 초기화해주고, 나머지 코드를 실행해야 함. 
+		super(planeCode); 
+		// 힙에 부모 메모리가 먼저 만들어지고, 자식이 만들어짐.
+		// 그렇기에 super()코드가 가장 먼저 와야 함.
+	}
+	
+}

@@ -1,0 +1,10 @@
+package class_.pack1.copy;
+
+public class A {
+
+	public A() {}
+	A(int i) {}
+	private A(String s) {}
+	
+	
+}

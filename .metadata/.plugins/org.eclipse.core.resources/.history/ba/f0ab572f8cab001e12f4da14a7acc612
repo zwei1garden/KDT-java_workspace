@@ -1,0 +1,14 @@
+package overload;
+
+public class SmurfMain {
+
+	Smurf s1 = new Smurf();
+	s1.call();
+	
+	Smurf s2 = new Smurf("파파스머프", "빨간색");{
+		
+	
+	}
+	
+	
+}

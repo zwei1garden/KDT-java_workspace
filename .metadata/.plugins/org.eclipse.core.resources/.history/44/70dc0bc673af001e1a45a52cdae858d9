@@ -1,0 +1,19 @@
+package inheri;
+
+public class MainClass1 {
+
+	public MainClass1() {
+		// TODO Auto-generated constructor stub
+		
+		Warrior w1 = new Warrior("leegarden");
+		w1.showStatus();
+		
+		Rabbit r1 = new Rabbit();
+		
+		for (int i = 0; i < 2; i++) {
+			w1.hunt(r1);
+		}
+	
+		w1.showStatus();
+	}
+}

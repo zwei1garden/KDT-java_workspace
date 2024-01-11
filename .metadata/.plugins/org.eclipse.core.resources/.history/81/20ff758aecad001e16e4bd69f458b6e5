@@ -1,0 +1,9 @@
+package encapsulation.bad;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		MyBirthdat b = new MyBirthday();
+		
+	}
+}

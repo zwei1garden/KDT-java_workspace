@@ -1,0 +1,15 @@
+package this_;
+
+public class Human {
+
+	public String name;
+	public int age;
+	
+	// 생성자 선언
+	public void Human (String name, int age) {
+		
+		this.name = name;
+		this.age = age;
+		
+	}
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.System.Logger"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="basic.importex.Test"/>
+    <fullyQualifiedTypeName name="basic.garden.Grass"/>
+    <fullyQualifiedTypeName name="basic.garden.Flower"/>
+    <fullyQualifiedTypeName name="basic.hello.hi.Hi"/>
+    <fullyQualifiedTypeName name="basic.hello.bye.Bye"/>
+    <fullyQualifiedTypeName name="java.lang.ArrayStoreException"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="equals.str.User"/>
+    <fullyQualifiedTypeName name="inheritance.Human"/>
+    <fullyQualifiedTypeName name="inheritance.Salaryman"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="java.util.jar.Attributes.Name"/>
+    <fullyQualifiedTypeName name="override.Human"/>
+    <fullyQualifiedTypeName name="overload.Human"/>
+    <fullyQualifiedTypeName name="org.xml.sax.ext.Attributes2"/>
+    <fullyQualifiedTypeName name="org.w3c.dom.ls.LSOutput"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="overload.Smurf"/>
+    <fullyQualifiedTypeName name="this_.Human"/>
+    <fullyQualifiedTypeName name="java.lang.IllegalThreadStateException"/>
+    <fullyQualifiedTypeName name="accessmodifier.member.pack1.A"/>
+    <fullyQualifiedTypeName name="super_.SupersonicAirplane"/>
+    <fullyQualifiedTypeName name="encapsulation.good.MyBirthday"/>
+    <fullyQualifiedTypeName name="javax.sound.midi.Soundbank"/>
+    <fullyQualifiedTypeName name="noinheri.MainClass1"/>
+    <fullyQualifiedTypeName name="java.net.NoRouteToHostException"/>
+    <fullyQualifiedTypeName name="inheri.Monster"/>
+    <fullyQualifiedTypeName name="inheri.Horse"/>
+    <fullyQualifiedTypeName name="casting.Parent"/>
+    <fullyQualifiedTypeName name="instanceof_.Human"/>
+    <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthGraphicsUtils"/>
+</qualifiedTypeNameHistroy>

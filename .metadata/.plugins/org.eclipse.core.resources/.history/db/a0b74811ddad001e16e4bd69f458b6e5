@@ -1,0 +1,16 @@
+package accessmodifier.member.pack1;
+
+public class B {
+
+	public B() {
+		A a = new A();
+		
+		a.a = 1; // public 접근 가능
+		a.b = 2; // 같은 패키지 내에 있는 요소에 대해 default 접근 가능
+		a.c = 3; // private은 접근 불가능
+		
+		a.method1(); // public 접근 가능
+		a.method2(); // 같은 패키지 내에 있는 요소에 대해 default 접근 가능
+		a.method3(); // private은 접근 불가능
+	}
+}

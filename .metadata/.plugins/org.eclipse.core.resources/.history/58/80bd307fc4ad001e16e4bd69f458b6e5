@@ -1,0 +1,14 @@
+package super_;
+
+public class Airplane {
+
+	public String planeCode;
+	protected int speed;
+	public int gas;
+	
+	public Airplane(String planeCode) {
+		speed = 0;
+		gas = 100;
+		this.planeCode = planeCode;
+	}
+}

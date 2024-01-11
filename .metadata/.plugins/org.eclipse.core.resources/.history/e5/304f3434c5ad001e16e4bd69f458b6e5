@@ -1,0 +1,29 @@
+package super_;
+
+public class Airplane {
+
+	public String planeCode;
+	protected int speed;
+	public int gas;
+	
+	public Airplane(String planeCode) { // 항공편명만 바꿔서 생성할 수 있도록
+		speed = 0;
+		gas = 100;
+		this.planeCode = planeCode;
+	}
+	
+	public void fly () {
+		
+		if (speed + 100 >= 900) {
+			speed = 900; // 속도는 900으로 제한
+		} else {
+			speed += 100; // 속도 100씩 추가
+		}
+		
+		if (gas - 3 <= 0) { // 가스가 음수로 되지 않도록
+			gas = 0;
+		} else {
+			gas -= 3; // 가스 3씩 차감
+		}
+	}
+}

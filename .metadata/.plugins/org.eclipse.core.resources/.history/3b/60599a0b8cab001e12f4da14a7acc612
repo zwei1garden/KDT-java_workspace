@@ -1,0 +1,10 @@
+package overload;
+
+import org.xml.sax.ext.Attributes2;
+
+public class SmurfMain {
+
+	Smurf s1 = new Smurf();
+	Smurf s2 = new Smurf("파파스머프", "빨간색");
+	
+}

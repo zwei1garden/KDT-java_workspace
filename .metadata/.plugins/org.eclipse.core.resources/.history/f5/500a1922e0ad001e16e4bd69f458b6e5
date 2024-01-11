@@ -1,0 +1,9 @@
+package accessmodifier.protec.pack2;
+
+public class B {
+
+	public B() {
+		A a = new A();
+		
+	}
+}
